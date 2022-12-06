@@ -1,0 +1,23 @@
+version: "3.7"
+
+services:
+  dashApp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      tags:
+        - "bioinformatic-sa"
+    image: bioinformatic-sa
+    container_name: WebApp
+    ports:  
+      - 3000:8050
+    volumes:
+      - .:/dash
+
+networks:
+  default:
+    name: bioinformatic-network
+
+volumes:
+    bioinformatic-volume:
+        external: false
