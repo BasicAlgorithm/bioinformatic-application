@@ -1,6 +1,6 @@
 # Bioinformatics Application
 
-Bioinformatic application is a simple solution for: (1) global alignment, (2) local alignment, (3) star alignment, and (4) graphic generator of secondary structure.
+Bioinformatic application is a simple solution for: (1) global alignment, (2) local alignment, (3) Multiple Sequence Alignment MSA using star alignment, and (4) graphic generator of secondary structure.
 
 It was created using a really nice programming language [julia](https://julialang.org/), [Dash](https://dash.plotly.com/julia/introduction) as framework, and docker for deployment.
 Things that you will can see:
@@ -14,7 +14,7 @@ Things that you will can see:
 
 - [x] Global Alignment
 - [x] Local Alignment
-- [x] Star Alignment
+- [x] Multiple Sequence Alignment MSA
 
 ### Graphics
 
